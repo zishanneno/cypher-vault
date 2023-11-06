@@ -1,0 +1,36 @@
+{
+  "name": "cypher-vault",
+  "version": "1.0.0",
+  "description": "A utility for sourcing and managing Neo4j cypher queries from the file system.",
+  "author": "Zishan Neno",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zishanneno/cypher-vault.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zishanneno/cypher-vault/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "cypher",
+    "neo4j",
+    "queries",
+    "files",
+    "mapper",
+    "valut",
+    "graph",
+    "database"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2"
+  }
+}
