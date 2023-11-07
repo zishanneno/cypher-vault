@@ -18,7 +18,7 @@ The structure I had in mind was simple yet intuitive:
       - update.cypher
 ```
 
-With such an arrangement, accessing my Cypher queries needed to be as straightforward as referencing `queries["person/insert"]` or `queries["person/update"]` (see example section below).
+With such an arrangement, accessing my Cypher queries needed to be as straightforward as referencing `queries["user/insert"]` or `queries["user/update"]` (see example section below).
 
 This would not only streamline the development experience but also pave the way for easier maintenance and scalability of the codebase. Thus, the creation of CypherVault — a means to encapsulate the complexity of Neo4j queries and harness their power with elegance and efficiency.
 
