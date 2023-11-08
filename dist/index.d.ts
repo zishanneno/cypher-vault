@@ -2,6 +2,6 @@ export declare class CypherVault {
     private queryPath;
     private queries;
     constructor(queryPath: string);
-    loadQueries(): Record<string, string>;
-    private readdirSync;
+    loadQueries(): Promise<Record<string, string>>;
+    private readdirAsync;
 }

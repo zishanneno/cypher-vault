@@ -1,6 +1,6 @@
 {
   "name": "cypher-vault",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A utility for sourcing and managing Neo4j cypher queries from the file system.",
   "author": "Zishan Neno",
   "repository": {
